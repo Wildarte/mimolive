@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mimo Live Sales</title>
@@ -42,18 +44,19 @@
 
         <section class="hero">
 
-            <div class="hero_content container d-flex">
+            <div class="hero_content hero_content_two container d-flex">
 
                 <div class="hero_left f-50">
-                    <img src="assets/img/girl-tow.png" alt="">
+                    <img class="not-mobile" src="assets/img/girl-tow.png" alt="">
                 </div>
 
                 <div class="hero_right f-50">
-                    <h1 class="title-grad p-10-0 line-h title_hero">
+                    <h1 class="title-grad p-10-0 line-h title_hero m-auto-mobile">
                         <span class="title-lg title_hero">O maior</span><br>
                         <span class="title-md title_hero">especialista</span><br>
                         <span class="title-xs">de </span> <span class="title-md-xs"> live commerce</span>
                     </h1>
+                    <img class="only-mobile" src="assets/img/girl-tow.png" alt="">
                     <p class="text-default">
                         OFERECEMOS UMA TECNOLOGIA DE LIVE COMMERCE WHITELABEL
                         QUE FUNCIONA NO SITE OU APP DAS MARCAS, COM INTEGRAÇÃO
@@ -75,7 +78,34 @@
 
 
         <section class="hero_card">
-            <div class="container d-flex">
+            <div class="container carousel-only-desktop d-flex">
+                <article class="card_grad">
+                    <img src="assets/img/title-card1.png" alt="">
+                    <p class="">
+                        Sua marce vende muito mais que o ecommerce
+                    </p>
+                </article>
+                <article class="card_grad">
+                    <img src="assets/img/title-card2.png" alt="">
+                    <p>
+                        Nosso time de especialistas acompanham sua marca antes, durante e depois da live para garantir uma experiência de sucesso
+                    </p>
+                </article>
+                <article class="card_grad">
+                    <img src="assets/img/title-card3.png" alt="">
+                    <p>
+                        Fernecedores com valores diferenciados para produção, influenciadores e tudo o que sua live commerce precisa para vender mais
+                    </p>
+                </article>
+                <article class="card_grad">
+                    <img src="assets/img/title-card4.png" alt="">
+                    <p>
+                        Painel administrativo com moderação em tempo real em dados fundamentais para melhorar a experiência do seu consumidor
+                    </p>
+                </article>
+            </div>
+
+            <div class="container carousel-only-mobile owl-carousel d-flex">
                 <article class="card_grad">
                     <img src="assets/img/title-card1.png" alt="">
                     <p class="">
@@ -108,56 +138,65 @@
         </section>
 
 
-        <section>
-            <div>
-                <header>
-                    <h1></h1>
-                </header>
+        <section class="hero_brand">
+            <img class="x-float" src="assets/img/x.png" alt="">
+            <div class="hero_brand_content container d-flex">
+                <div class="brand_left">
+                    <div class="text_brand">
+                        <p class="text-default">DE UMA FORMA MUITO SIMPLES, NOSSA TECNOLOGIA É INTEGRADA AO E-COMMERCE DAS MARCAS ONDE INFORMAÇÕES DE PRODUTO, ESTOQUE, FOTOS E DESCRIÇÕES SÃO INTEGRADAS À LIVE.
+                        </p>
 
-                <div>
-                    <div>
-                        <div>
-                            <p></p>
-                        </div>
-
-                        <div>
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                        </div>
+                        <p class="text-default">
+                            ESSAS SÃO ALGUMAS PLATAFORMAS DE E-COMMERCE INTEGRADAS NA MIMO:
+                        </p>
                     </div>
 
-                    <div>
-                        <img src="" alt="">
+                    <div class="imgs_brand">
+                        <img src="assets/img/magento.png" alt="">
+                        <img src="assets/img/shopify.png" alt="">
+                        <img src="assets/img/tray.png" alt="">
+                        <img src="assets/img/vnda.png" alt="">
+                        <img src="assets/img/vtex.png" alt="">
                     </div>
+                </div>
+
+                <div class="brand_right d-flex">
+                    <img src="assets/img/girl-three.png" alt="">
                 </div>
             </div>
         </section>
 
-        <section>
-            <div>
+        <section class="hero_number">
+            <div class="hero_number_content container">
 
-                <header>
-                    <h1></h1>
+                <header class="header_number">
+                    <h1 class="title_number">Big Number</h1>
                 </header>
 
-                <div>
-                    <article>
-                        <img src="" alt="">
-                        <p></p>
+                <div class="numbers d-flex">
+                    <article class="card_number">
+                        <img src="assets/img/number1.png" alt="">
+                        <p>
+                            Trilhões é a previsão de faturamento mundial do live commerce em 2025
+                        </p>
                     </article>
-                    <article>
-                        <img src="" alt="">
-                        <p></p>
+                    <article class="card_number">
+                        <img src="assets/img/number2.png" alt="">
+                        <p>
+                            Do volume de transações do e-commerce global é de  live commerce
+                        </p>
                     </article>
-                    <article>
-                        <img src="" alt="">
-                        <p></p>
+                    <article class="card_number">
+                        <img src="assets/img/number3.png" alt="">
+                        <p>
+                            Dos brasileiros pretendem comprar através de lives
+                        </p>
                     </article>
-                    <article>
-                        <img src="" alt="">
-                        <p></p>
+                    <article class="card_number">
+                        <img src="assets/img/number4.png" alt="">
+                        <p>
+                            Dos setores podem vender por live commerce
+                        </p>
                     </article>
                 </div>
 
@@ -165,35 +204,410 @@
         </section>
 
 
-        <section>
-            <div>
-                <table>
+        <section class="hero_table">
+            <div class="hero_table_content container">
 
-                </table>
+                <div class="table_plans d-flex" id="plans">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h1>No seu site ou App</h1>
+                                </th>
+                                <th>
+                                    <h1>Starter</h1>
+                                    <h2>Mimo Tech</h2>
+                                    <p>Esse plano tem fidelidade de 6 meses</p>
+                                </th>
+                                <th>
+                                    <h1>Premium</h1>
+                                    <h2>Mimo Tec + Full Service</h2>
+                                    <p>Esse plano tem fidelidade de 6 meses</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>Volume de lives</p>
+                                </td>
+                                <td>
+                                    <span>
+                                        24 lives/ano
+                                    </span>
+                                </td>
+                                <td>
+                                    <span>
+                                        48 lives/ano
+                                    </span>
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+                            <tr>
+                                <td>
+                                    <p>Tech de lives comerce mimo no site/app da marca</p>
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                                
+                            </tr>
+                            <!-- =================================== -->
+                            
+                            <tr>
+                                <td>
+                                    <p>Checkout no próprio site</p>
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Dashboard e inteligência de dados para melhor performance na live</p>
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Treinamento de time e apresentadores das lives</p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Treinamento de time e apresentadores das lives</p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Consultoria de Divulgação e qualificação de leads para as lives</p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Consultoria completa(Pre, durante e Pós live)</p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>
+                                        Guia Pro de como vender via live <small>(Para hostse marca)</small>
+                                    </p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Recomendação de influencers como hosts para live*</p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Templates para divulgação da live <small>(E-mail Mkt Social Media)</small></p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Indicação de produção com valores diferenciados**</p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Recomendação de conteúdos</p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                            <tr>
+                                <td>
+                                    <p>Key Account</p>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <img src="assets/img/check.png" alt="">
+                                </td>
+                            </tr>
+                            <!-- =================================== -->
+
+                        </tbody>
+
+                    </table>
+
+                    <div class="right_table d-flex">
+
+                        <div class="right_table_header">
+                            <h1>Mimo<br>Custom</h1>
+                        </div>
+
+                        <div class="right_table_body">
+                            <h1>Quer um plano customizado com a sua cara?</h1>
+                            <h1>Então fale com a gente!</h1>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
             </div>
         </section>
 
 
-        <section>
+        <section class="section_form" id="specialist">
 
-            <div>
-                <header>
-                    <button>
+            <div class="container">
+                <header class="header_section_form d-flex">
+                    <button class="btn_sec_form btn-purple">
                         Sou Marca
                     </button>
-                    <button>
+                    <button class="btn_sec_form btn-purple opac-low">
                         Sou Influencer
                     </button>
-                    <button>
+                    <button class="btn_sec_form btn-purple opac-low">
                         Sou consumidor
                     </button>
                 </header>
 
-                <div>
-                    <p></p>
+                <div class="board_form">
+                    
 
-                    <div>
-                        <form action="">
+                    <div class="space_form">
+                       
+
+                        <form action="" class="form d-flex show">
+
+                            <p class="text-default">
+                                Fale Conosco um dos nossos especialistas, tire todas as suas dúvidas e comece a escalar as suas vendas hoje mesmo! preencha o formulário e entraremos em contato
+                            </p>
+
+                            <div class="form_field">
+                                <input type="text" name="" id="" placeholder="NOME">
+                            </div>
+
+                            <div class="form_field">
+                                <input type="email" name="" id="" placeholder="E-MAIL">
+                            </div>
+
+                            <div class="form_field">
+                                <input type="telefone" name="" id="" placeholder="TELEFONE">
+                            </div>
+
+                            <div class="form_field">
+                                <input type="text" name="" id="" placeholder="EMPRESA">
+                            </div>
+
+                            <div class="form_field">
+                                <input type="url" name="" id="" placeholder="SITE">
+                            </div>
+
+                            <div class="form_field">
+                                <input type="text" name="" id="" placeholder="REDE SOCIAL">
+                            </div>
+
+                            <div class="form_field">
+                                <select name="" id="" placeholder="SEGMENTO DE NEGÓCIO">
+                                    <option value="SEGMENTO DE NEGÓCIOS">SEGMENTO DE NEGÓCIOS</option>
+                                    <option value="ACESSÓRIOS">ACESSÓRIOS</option>
+                                    <option value="AGRO">AGRO</option>
+                                    <option value="ALIMENTOS">ALIMENTOS</option>
+                                    <option value="AUTOMÓVEIS">AUTOMÓVEIS</option>
+                                    <option value="BEBIDAS">BEBIDAS</option>
+                                    <option value="BELEZA">BELEZA</option>
+                                    <option value="CASA E DECORAÇÃO">CASA E DECORAÇÃO</option>
+                                    <option value="EDUCAÇÃO">EDUCAÇÃO</option>
+                                    <option value="ELETRÔNICOS">ELETRÔNICOS</option>
+                                    <option value="FERRAMENTAS">FERRAMENTAS</option>
+                                    <option value="GAMES">GAMES</option>
+                                    <option value="INDÚSTRIA">INDÚSTRIA</option>
+                                    <option value="INFANTIL">INFANTIL</option>
+                                    <option value="IMOBILIÁRIO">IMOBILIÁRIO</option>
+                                    <option value="MODA">MODA</option>
+                                    <option value="SAPATOS">SAPATOS</option>
+                                    <option value="OUTROS">OUTROS</option>
+                                </select>
+                            </div>
+
+                            <div class="form_field">
+                                <select name="" id="" placeholder="ÁREA DE ATUAÇÃO">
+                                    <option value="ÁREA DE ATUAÇÃO">ÁREA DE ATUAÇÃO</option>
+                                    <option value="MARKETING">MARKETING</option>
+                                    <option value="E-COMMERCE">E-COMMERCE</option>
+                                    <option value="COMERCIAL">COMERCIAL</option>
+                                    <option value="TECNOLOGIA">TECNOLOGIA</option>
+                                    <option value="ATENDIMENTO">ATENDIMENTO</option>
+                                    <option value="OUTRO">OUTRO</option>
+                                </select>
+                            </div>
+
+                            <div class="form_field">
+                                <select name="" id="" placeholder="E-COMMERCE QUE UTILIZA">
+                                    <option value="E-COMMERCE QUE UTILIZA">E-COMMERCE QUE UTILIZA</option>
+                                    <option value="VTEX">VTEX</option>
+                                    <option value="SHOPIFY">SHOPIFY</option>
+                                    <option value="MAGENTO">MAGENTO</option>
+                                    <option value="VNDA">VNDA</option>
+                                    <option value="SALESFORCE">SALESFORCE</option>
+                                    <option value="TRAY">TRAY</option>
+                                    <option value="JET COMMERCE">JET COMMERCE</option>
+                                    <option value="NUVEMSHOP">NUVEMSHOP</option>
+                                    <option value="OUTRO">OUTRO</option>
+                                    <option value="NENHUM">NENHUM</option>
+                                </select>
+                            </div>
+
+                            <div class="form_field">
+                                <select name="" id="" placeholder="VOCÊ VENDE PARA">
+                                    <option value="VOCÊ VENDE PARA">VOCÊ VENDE PARA</option>
+                                    <option value="EMPRESA">EMPRESA</option>
+                                    <option value="CONSUMIDOR FINAL">CONSUMIDOR FINAL</option>
+                                    <option value="AMBOS">AMBOS</option>
+                                </select>
+                            </div>
+
+                            <div class="form_row">
+                                <button class="btn_form btn-purple" type="submit">Enviar</button>
+                            </div>
+
+                        </form>
+
+                        <form action="" class="form d-flex">
+
+                            <p class="text-default">
+                                Se você quer apresentar uma live commerce preencha o formulário abaixo sobre seu perfil e entraremos em contato.
+                            </p>
+
+                            <div class="form_field">
+                                <input type="text" name="" id="" placeholder="NOME">
+                            </div>
+
+                            <div class="form_field">
+                                <input type="email" name="" id="" placeholder="E-MAIL">
+                            </div>
+
+                            <div class="form_field">
+                                <select name="" id="" placeholder="PRINCIPAL REDE SOCIAL">
+                                    <option value="PRINCIPAL REDE SOCIAL">PRINCIPAL REDE SOCIAL</option>
+                                    <option value="INSTAGRAM">INSTAGRAM</option>
+                                    <option value="TIKTOK">TIKTOK</option>
+                                    <option value="TWITTER">TWITTER</option>
+                                    <option value="FACEBOOK">FACEBOOK</option>
+                                    <option value="KWAI">KWAI</option>
+                                    <option value="OUTRA">OUTRA</option>
+                                </select>
+                            </div>
+
+                            <div class="form_field">
+                                <input tyle="text" name="" id="" placeholder="USUÁRIO">
+                            </div>
+
+                            <div class="form_row">
+                                <button class="btn_form btn-purple" type="submit">Enviar</button>
+                            </div>
+
+                        </form>
+
+                        <form action="" class="form d-flex">
+
+                            <p class="text-default">
+                                Para receber a agenda de lives da mimo, preencha o formulário abaixo.
+                            </p>
+
+                            <div class="form_field">
+                                <input type="text" name="" id="" placeholder="NOME">
+                            </div>
+
+                            <div class="form_field">
+                                <input type="email" name="" id="" placeholder="E-MAIL">
+                            </div>
+
+                            <div class="form_row">
+                                <button class="btn_form btn-purple" type="submit">Enviar</button>
+                            </div>
 
                         </form>
                     </div>
@@ -208,28 +622,49 @@
     <div class="float_board">
         <div class="container float_board_content">
             <div class="float_col">
-                <a class="btn-purple btn-hover-grow" href="">Falar com especialista</a>
+                <a class="btn-purple btn-hover-grow" href="#specialist">Falar com especialista</a>
             </div>
             <div class="float_col">
-                <a class="btn-transparent btn-hover-grow" href="">Nossos planos</a>
+                <a class="btn-transparent btn-hover-grow" href="#plans">Nossos planos</a>
             </div>
 
             <div class="float_col float_social">
-                <a href="">
-                    <img src="assets/img/wpp.png" alt="">
+                <a href="https://api.whatsapp.com/send/?phone=%2B5511930075409&text&app_absent=0">
+                    <img src="assets/img/pur-wpp.png" alt="">
                 </a>
-                <a href="">
-                    <img src="assets/img/facebook.png" alt="">
+                <a href="https://www.facebook.com/MimoLiveSales/">
+                    <img src="assets/img/pur-facebook.png" alt="">
                 </a>
-                <a href="">
-                    <img src="assets/img/instagram.png" alt="">
+                <a href="https://www.instagram.com/mimolivesales/">
+                    <img src="assets/img/pur-instagram.png" alt="">
                 </a>
-                <a href="">
-                    <img src="assets/img/linkedin.png" alt="">
+                <a href="https://www.linkedin.com/company/mimolivesales">
+                    <img src="assets/img/pur-linkedin.png" alt="">
                 </a>
             </div>
         </div>
     </div>
-    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".carousel-only-mobile").owlCarousel({
+                loop:true,
+                margin:0,
+                autoplay:true,
+                autoplayTimeout:3000,
+                autoplayHoverPause:true,
+                responsive:{
+                    0:{
+                        items:1,
+                        margin: 20,
+                        loop: true
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>
